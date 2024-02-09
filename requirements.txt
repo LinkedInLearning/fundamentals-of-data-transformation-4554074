@@ -1,1 +1,11 @@
-# Specify Python package requirements for your project here (e.g., Mako==1.1.1). If your project doesn't require these, you can leave this file unchanged or delete it.
+duckdb==0.9.2
+notebook==7.0.7
+jupysql==0.10.10
+pandas==2.2.0
+pyarrow==15.0.0
+polars==0.20.6
+black==24.1.1
+black[jupyter]==24.1.1
+jupyter==1.0.0
+pre-commit==3.6.0
+isort==5.13.2
