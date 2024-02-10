@@ -1,11 +1,12 @@
 {
-  "extensions": [
-    "GitHub.github-vscode-theme",
-    "ms-toolsai.jupyter",
-    "ms-python.python"
-    // Additional Extensions Here
-  ],
-  "onCreateCommand" : "[ -f requirements.txt ] && pip install -U pip && pip install -r requirements.txt; echo PS1='\"$ \"' >> ~/.bashrc", //Set Terminal Prompt to $
+  "image": "mcr.microsoft.com/devcontainers/universal:2",
+  "vscode": {
+    "extensions": [
+      "GitHub.github-vscode-theme",
+      "ms-toolsai.jupyter",
+      "ms-python.python"
+    ]
+  },
+  "waitFor": "onCreateCommand",
+  "updateContentCommand": "python3 -m pip install -r requirements.txt"
 }
-
-// DevContainer Reference: https://code.visualstudio.com/docs/remote/devcontainerjson-reference
