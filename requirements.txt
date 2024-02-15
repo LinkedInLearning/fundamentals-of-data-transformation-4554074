@@ -1,4 +1,4 @@
-duckdb==0.9.2
+duckdb==0.10.0
 notebook==7.0.7
 jupysql==0.10.10
 pandas==2.2.0
