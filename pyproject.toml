@@ -1,0 +1,4 @@
+[tool.jupysql.SqlMagic]
+feedback = true
+autopandas = true
+displaylimit = 10
