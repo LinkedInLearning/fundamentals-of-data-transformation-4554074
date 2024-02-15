@@ -32,7 +32,3 @@ CREATE TABLE nps_public_data.amenities(categories VARCHAR[], "name" VARCHAR, id 
 CREATE TABLE nps_public_data.alerts(relatedRoadEvents STRUCT("type" VARCHAR, url VARCHAR, id VARCHAR, title VARCHAR)[], category VARCHAR, description VARCHAR, title VARCHAR, parkCode VARCHAR, lastIndexedDate TIMESTAMP WITH TIME ZONE, url VARCHAR, id VARCHAR);
 CREATE TABLE nps_public_data.activities__parks(parks STRUCT("name" VARCHAR, fullName VARCHAR, parkCode VARCHAR, designation VARCHAR, url VARCHAR, states VARCHAR)[], "name" VARCHAR, id VARCHAR);
 CREATE TABLE nps_public_data.activities("name" VARCHAR, id VARCHAR);
-
-
-
-
