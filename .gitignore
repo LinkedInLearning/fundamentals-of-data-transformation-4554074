@@ -5,3 +5,4 @@ npm-debug.log
 **.ipynb_checkpoints**
 **playground**
 **.db**
+.python-version

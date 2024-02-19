@@ -4,11 +4,11 @@
     "cpus": 4
   },
   "waitFor": "onCreateCommand",
-  "updateContentCommand": "python3 -m pip install -r requirements.txt",
+  "updateContentCommand": "python3 -m pip install -U pip && python3 -m pip install -r requirements.txt",
   "postCreateCommand": "",
   "customizations": {
     "codespaces": {
-      "openFiles": []
+      "openFiles": ["README.md"]
     },
     "vscode": {
       "extensions": [
