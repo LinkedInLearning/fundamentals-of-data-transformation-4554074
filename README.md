@@ -25,11 +25,11 @@ As we'll discuss in the next section, this course is built on Jupyter, making it
 
 ## 📚 Course Structure
 
-This course is built around the asset I find _most_ helpful for learning— hands on experience. That means rather than walking through a structured guide of basic data transformations, we'll start from a question or a hypothesis, e.g. _"Which National Parks have the most campgrounds?"_ or _"Which number is most often drawn in the first pick of a Powerball lottery?"_ and walk through practical ways of answering those questions.
+This course is built around the asset I find _most_ helpful for learning— hands-on experience. That means rather than walking through a structured guide of basic data transformations, we'll start with a question or a hypothesis, e.g. _"Which National Parks have the most campgrounds?"_ or _"Which number is most often drawn in the first pick of a Powerball lottery?"_ and walk through practical ways of answering those questions.
 
-It's our belief this lends itself to the most "natural" forms of data transformation and the most effective forms of learning. This is largely dependent on the _sources_ and _destinations_ your working with, in the case of a data engineer, or the _questions_ you're asking, in the case of a data analyst.
+It's our belief this lends itself to the most "natural" forms of data transformation and the most effective forms of learning. This is largely dependent on the _sources_ and _destinations_ you're working with, in the case of a data engineer, or the _questions_ you're asking, in the case of a data analyst.
 
-You might note that a small tidbit is left out or there's a concept you feel should be covered more thoroughly. That's okay! We're not trying to cover _everything_ in this course, but rather provide a solid foundation for you to build upon. The truth is, even professionals use Google, documentation, and Stack Overflow to solve problems. So if you come across something that seems like an impass, check out the corresponding documentation, reach out on GitHub for help, _or_ try to figure it out on your own! That's how we learn.
+You might note that a small tidbit is left out or there's a concept you feel should be covered more thoroughly. That's okay! We're not trying to cover _everything_ in this course, but rather provide a solid foundation for you to build upon. The truth is _even_ professionals use Google, documentation, and Stack Overflow to solve problems. So if you come across something that seems like an impasse, check out the corresponding documentation, reach out on GitHub for help, _or_ try to figure it out on your own! That's how we learn.
 
 ## 📇 Repo
 
