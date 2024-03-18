@@ -1,6 +1,6 @@
 black==24.1.1
 black[jupyter]==24.1.1
-duckdb==0.10.0
+duckdb==0.10.1
 faker==23.2.1
 ipywidgets==7.7.1
 isort==5.13.2
