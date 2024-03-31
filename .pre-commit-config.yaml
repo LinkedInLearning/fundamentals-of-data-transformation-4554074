@@ -1,6 +1,13 @@
 repos:
+-   repo: https://github.com/python-poetry/poetry
+    rev: 1.8.0
+    hooks:
+    -   id: poetry-check
+    -   id: poetry-lock
+    -   id: poetry-export
+    -   id: poetry-install
 -   repo: https://github.com/pre-commit/pre-commit-hooks
-    rev: v4.5.0  # Use the ref you want to point at
+    rev: v4.5.0
     hooks:
     -   id: trailing-whitespace
     -   id: file-contents-sorter
@@ -9,18 +16,17 @@ repos:
     -   id: check-added-large-files
         args: ['--maxkb=2000']
     -   id: check-json
-    -   id: requirements-txt-fixer
 -   repo: https://github.com/asottile/reorder-python-imports
     rev: v3.12.0
     hooks:
     -   id: reorder-python-imports
         args: [--py38-plus, --add-import, 'from __future__ import annotations']
 -   repo: https://github.com/psf/black
-    rev: 22.10.0
+    rev: 24.3.0
     hooks:
     -   id: black
 -   repo: https://github.com/psf/black-pre-commit-mirror
-    rev: 24.1.1
+    rev: 24.3.0
     hooks:
       - id: black-jupyter
         language_version: python3.10
