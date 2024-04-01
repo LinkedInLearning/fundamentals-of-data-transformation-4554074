@@ -37,8 +37,7 @@ This repository contains folders denoting each section of the course. You can fi
 - `01-intro`
 - `02-duckdb`
 - `03-pandas`
-- `04-polars`
-- `05-appendix`
+- `04-appendix`
 
 For each folder, there will be two sub-folders: `exercises` & `lessons`.
 - Code in the videos will be contained within the `exercises` folders.
@@ -83,14 +82,11 @@ conn = duckdb.connect()
 
 This code loads the SQL extension, imports DuckDB and configures your environment to begin executing code, right away. It then imports the National Parks dataset to your notebook's memory, so that you can query it with DuckDB. Pretty neat!
 
-To run _more_ SQL, just create a new cell and add `%%sql` at the top (that's for multi-line) or `%sql` if you just need to run a single line. To load the data with Pandas or Polars, you'll need the following commands:
+To run _more_ SQL, just create a new cell and add `%%sql` at the top (that's for multi-line) or `%sql` if you just need to run a single line. To load the data with Pandas, you'll need the following command:
 
 ```python
 # pandas 🐼
 df = pd.read_parquet('../../data/nps/nps_public_data_[TABLE].parquet')
-
-# polars 🐻‍❄️
-df = pl.read_parquet('./../data/nps/nps_public_data_[TABLE].parquet')
 ```
 
 ## 🏞️ The Dataset
