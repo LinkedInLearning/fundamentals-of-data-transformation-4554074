@@ -1,7 +1,4 @@
 {
-    "sqlfluff.excludeRules": [
-        "PRS"
-    ],
     "cSpell.enableFiletypes": [
         "!sql"
     ]
