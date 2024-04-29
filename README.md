@@ -4,12 +4,15 @@
 
 I'm Matt, your course instructor! I'll be here to guide you on your data transformation journey. First, I'll start with an overview of the course and the exercise files. Then, we'll dive into the course content.
 
-If you'd like to learn more about me, feel free to take a look at the following links:
+If you'd like to see what I'm up to on social:
+
+- [X](https://x.com/mattppal)
+- [LinkedIn](https://www.linkedin.com/in/matt-palmer)
+
+If you'd like to learn more about me:
 
 - [Blog](https://mattpalmer.io)
 - [Newsletter](https://newsletter.casewhen.xyz)
-- [LinkedIn](https://www.linkedin.com/in/matt-palmer)
-- [X](https://x.com/mattppal)
 
 Otherwise, on to the course!
 
@@ -64,7 +67,7 @@ Of course, if you know what you're doing and would rather not use Codespaces, fe
 
 For a detailed explanation of how VS Code Jupyter Notebooks work, please see the following guide.
 
-This course also uses JupySQL, a Jupyter Notebook extension that enables in-line SQL. If you take a look at a [lesson](/course/02-duckdb/lessons/01-query-basics-columnar-ops.ipynb), you'll notice the following configuration at the top of the notebook:
+This course also uses JupySQL, a Jupyter Notebook extension that enables in-line SQL. If you take a look at a [lesson](course/02-sql/lessons/00-duckdb-basics.ipynb), you'll notice the following configuration at the top of the notebook:
 
 ```python
 import duckdb
