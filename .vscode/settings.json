@@ -1,5 +1,7 @@
 {
     "cSpell.enableFiletypes": [
         "!sql"
-    ]
+    ],
+    "workbench.colorTheme": "Default Dark+",
+    "window.zoomLevel":1
 }
