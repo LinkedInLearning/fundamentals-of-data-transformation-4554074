@@ -166,3 +166,4 @@ cython_debug/
 .python-version
 **scratch**
 **.DS_Store**
+poetry.lock
