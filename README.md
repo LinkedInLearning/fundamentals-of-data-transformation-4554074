@@ -11,8 +11,8 @@ If you'd like to see what I'm up to on social:
 
 If you'd like to learn more about me:
 
-- [Blog](https://mattpalmer.io)
-- [Newsletter](https://newsletter.casewhen.xyz)
+- [Website](https://mattpalmer.io)
+- [Blog](https://blog.mattpalmer.io)
 
 Otherwise, on to the course!
 
