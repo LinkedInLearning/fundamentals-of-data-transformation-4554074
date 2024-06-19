@@ -2,6 +2,8 @@
 
 👋 Hello there and welcome! This is the repo for `Fundamentals of Data Transformation`. The full course is available on the [LinkedIn Learning][lil-course-url] platform.
 
+![lil-thumbnail-url]
+
 I'm Matt, your course instructor! I'll be here to guide you on your data transformation journey. First, I'll start with an overview of the course and the exercise files. Then, we'll dive into the course content.
 
 If you'd like to see what I'm up to on social:
@@ -102,5 +104,5 @@ We have it as a to-do to create an entity relationship diagram (ERD) for the dat
 
 [0]: # (Replace these placeholder URLs with actual course URLs)
 
-[lil-course-url]: https://www.linkedin.com/learning/
-[lil-thumbnail-url]: http://
+[lil-course-url]: https://www.linkedin.com/learning/fundamentals-of-data-transformation-with-pandas-and-duckdb-sql/
+[lil-thumbnail-url]: https://media.licdn.com/dms/image/D560DAQGHrL3djyQWzA/learning-public-crop_675_1200/0/1718396996140?e=2147483647&v=beta&t=6KHnTHb3wWhfZv0qozo0edm3KMG2CapPKgel1PaLgkU
